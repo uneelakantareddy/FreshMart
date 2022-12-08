@@ -1,7 +1,7 @@
 
 THIS PROJECT IS CREATED WITH THE yarn create react-app frehsmart.
 
-* If you are using the npm you can run this application by removing the node_modules and yarn.lock and then by running the npm command
+* If you are using the npm you can run this application by removing the node_modules and yarn.lock and then by running the npm install command
 
 *The intial login page is authenticated with the use UserName & password
 
