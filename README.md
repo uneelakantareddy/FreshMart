@@ -1,3 +1,16 @@
+
+THIS PROJECT IS CREATED WITH THE yarn create react-app frehsmart.
+
+* If you are using the npm you can run this application by removing the node_modules and yarn.lock and then by running the npm command
+
+*The intial login page is authenticated with the use UserName & password
+
+UserName:neelakanta1@divum.in
+password:983377
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
