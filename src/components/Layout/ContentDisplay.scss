@@ -1,0 +1,116 @@
+.wraper {
+  & {
+    position: absolute;
+      margin-top: 10rem;
+      display: grid;
+      column-gap: 2rem;
+      row-gap: 1.2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      border: 0.1rem solid green    ;
+      border-radius: 1rem;
+      grid-template-columns: auto auto auto ;
+      grid-template-rows: auto ;
+      
+     
+    }
+  }
+  
+  .item {
+    &__div {
+      
+      margin: 1rem;
+      // margin-bottom: 1.5rem;
+      border: 1.3px solid green;
+      border-radius: 0.7rem;
+      max-width: 90%;
+      max-height: 82%;
+      @media only screen and (max-width:950px) {
+        margin: 0.5rem;
+        
+      }
+    }
+  
+    &__img {
+      align-items: center;
+      padding-left: 2.5rem;
+      margin-top: 0.5rem;
+      max-width: 90%;
+      max-height: 70%;
+    }
+    &__name {  
+      margin-top: -1rem;
+      padding-left: 0.8rem;
+      max-width: 85%;
+    }
+    
+    &__price {
+      
+      margin-top: 1rem;
+      margin-left: 0.8rem;
+      color:green;
+      max-width: 94%;
+      max-height: 85%;
+    
+      
+    }
+  }
+
+    .AddCartbutton {
+      margin-top: -0.6rem;
+    margin-left: 18rem;
+    @media only screen and (max-width:1400px){
+      margin-left: 12rem;
+    }
+
+    @media only screen and (max-width:1090px){
+      margin-left: 8rem;
+    }
+      border-radius: 15px;
+      width: 100px;
+      transform: translateY(-50%);
+      padding: 0.5rem 0.4rem;
+      color: white;
+      font-style: italic;
+      font-weight: bolder;
+      background-color: green;
+      .AddCartbutton:hover,
+      .AddCartbutton:active {
+        background-color: #054603;
+        border-color: #054603;
+        color: white;
+      }
+}
+  
+
+    .navbar{
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-top: 5rem;
+      height: 2.8rem;
+      width: 100%;
+      background-color: lightgray;
+      flex-shrink: 1;
+      z-index: 3;
+      &__link{
+          margin-top: 0.05rem;
+          
+          padding: 1rem;
+          color: green;
+          font-style: italic;
+          font-weight: 400;
+          text-decoration: none;
+          font-size: larger;
+  
+      }
+  
+  }
+  .active{
+      color: green;
+      font-style: normal;
+      font-size: larger;
+      font-weight: 600;
+      text-decoration: underline;
+  }

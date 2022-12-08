@@ -1,0 +1,31 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+    height: 2.8rem;
+    width: 100%;
+    background-color: lightgray;
+    flex-shrink: 1;
+    z-index: 3;
+    &__link{
+        margin-top: 0.05rem;
+        
+        padding: 1rem;
+        color: green;
+        font-style: italic;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: larger;
+
+    }
+
+}
+.active{
+    color: green;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+}

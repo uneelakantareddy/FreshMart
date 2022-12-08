@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container{
+    // display: inline;
+    position: absolute;
+	margin: 0 auto;
+    margin-left: 8rem;
+    
+    &__cart{
+        position: absolute;
+        margin-top: 10rem;   
+    }  
+}
+
+.product{
+	display: flex;
+    
+	width: 40rem;
+	height: 17rem;
+	overflow: hidden;
+	border: 1px solid silver;
+	margin-bottom: 5rem;
+    
+    
+    &:hover{
+        border: none;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        transform: scale(1.01);
+    }
+    
+    & > img{
+        width: 51rem;
+        height: 14rem;
+        padding-right: 4rem;
+        object-fit: cover;
+    }
+    
+    & > img:hover{
+        transform: scale(1.04);
+    }
+    
+    &__info{
+        padding: 16px;
+        width: 100%;
+        position: relative;
+    }
+    
+    &__name, &__price{
+        margin-bottom: 18px;
+    }
+    
+    &__remove{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 25px;
+        background-color: green;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    &__add{
+        position: absolute;
+        bottom: 20px;
+        right: 150px;
+        padding: 10px 35px;
+        text-align: center;
+        background-color: green;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    &__add:hover,&__remove:hover{
+        background-color: white;
+        color: green;
+        font-weight: 600;
+        border: 1px solid green;
+    }
+}
+
+
+
+
+
+
+
+
+ 
+  
+  
+
+

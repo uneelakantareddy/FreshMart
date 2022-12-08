@@ -1,0 +1,18 @@
+.logout__btn{
+    // display: flex;
+    font: inherit;
+    position: fixed;
+    background-color:aliceblue;
+    color: black;
+    padding:0.8rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    z-index: 3;
+    margin-left: 92%;
+    font-weight: 600;
+    &:active{
+        background-color: orangered;
+        color: white;
+    }   
+}
+

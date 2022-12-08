@@ -1,0 +1,52 @@
+.headerButton {
+    cursor: pointer;
+    font: inherit;
+    position: fixed;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    height: 3rem;
+    margin-left: 77%;
+    margin-top: 1rem;
+    z-index: 3;
+    // margin-right: 1rem;
+    @media only screen and (max-width:1300px){
+      margin-left: 80%;
+    }
+    @media only screen and (max-width:1000px){
+      margin-left: 78%;
+    }
+    
+    &:hover,
+    :active {
+      background-color: goldenrod;
+    }
+    &__name {
+      color:black;
+    }
+    &__icon {
+      width: 1.75rem;
+      height: 1.75rem;
+      margin-left: 0.2rem;
+      margin-right: 0.5rem;
+    }
+    &__badge {
+      background-color: grey;
+      padding: 0.25rem 1rem;
+      border-radius: 25px;
+      margin-left: 1rem;
+      margin-right: 0.5rem;
+      font-weight: bold;
+    }
+    &__badge:hover {
+      background-color: #d27d5b;
+    }
+  }
+
+ 
+  
